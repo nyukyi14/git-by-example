@@ -1,3 +1,1 @@
-multiply <- function (a,b) {
-    a * b
-}
+multiply <- function (a,b) a * b
