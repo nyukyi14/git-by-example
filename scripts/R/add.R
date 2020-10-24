@@ -1,1 +1,3 @@
-add <- function (a, b) a + b
+add <- function (x) [
+    Reduce(`+`, x)
+]
