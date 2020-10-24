@@ -1,1 +1,3 @@
-multiply <- function (a,b) a * b
+multiply <- function (x) {
+    Reduce(`*`, x)
+}
