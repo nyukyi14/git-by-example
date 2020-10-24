@@ -1,1 +1,5 @@
-const add = (a, b) => a + b
+const add = (arr) => {
+    return arr.reduce((prev, curr) => {
+        return prev + curr
+    })
+}
